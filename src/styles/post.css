@@ -1,0 +1,31 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.user{
+    font-size: smaller;
+    display: flex;
+    gap: 30px;
+}
+.user button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgreen;
+}
+.user:hover button{
+    cursor: pointer;
+}
+.post-title{
+    font-weight: bold;
+    font-size: larger;
+}

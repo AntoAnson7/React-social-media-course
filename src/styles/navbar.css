@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 1920px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.title{
+    width: 320px;
+    text-align: center;
+    font-size: 25px;
+}
+.links{
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    gap: 50px;
+}
+.user-info{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    font-size: 15px;
+    justify-content: start;
+    padding-left: 120px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 23px;
+}
+
+.pfp{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.signout{
+    position: absolute;
+    top: 12px;
+    left: 280px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: green;
+}
